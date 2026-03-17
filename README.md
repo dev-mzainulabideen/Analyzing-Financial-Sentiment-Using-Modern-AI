@@ -1,21 +1,21 @@
-# 📊 Analyzing Financial Sentiment Using Modern AI  
+# Analyzing Financial Sentiment Using Modern AI  
 ## Comparing Three Different Approaches  
 
 **Author:** Muhammad Zain-ul-Abideen (20i-0821)  
 **Section:** BSCS-A  
 **Department:** Computer Science  
 **University:** FAST National University of Computer and Emerging Sciences, Islamabad  
-📧 i200821@nu.edu.pk  
+ i200821@nu.edu.pk  
 
 ---
 
-## 📌 Overview  
+## Overview  
 
 This project explores how modern AI techniques can be used to analyze **financial sentiment** in text data. Three different approaches are implemented and compared to evaluate their effectiveness.
 
 ---
 
-## 🚀 Key Results  
+## Key Results  
 
 - FinBERT Accuracy: **97.2%**  
 - Multi-Model Ensemble: **95.2%**  
@@ -24,7 +24,7 @@ This project explores how modern AI techniques can be used to analyze **financia
 
 ---
 
-## 🧠 Methods  
+##  Methods  
 
 ### 1. FinBERT  
 - Domain-specific transformer model  
@@ -53,7 +53,7 @@ Includes:
 
 ---
 
-### 🔥 Final Combined Model  
+###  Final Combined Model  
 - FinBERT → 50% weight  
 - Multi-model → 25%  
 - RAG → 35%  
@@ -61,7 +61,7 @@ Includes:
 
 ---
 
-## 📂 Dataset  
+##  Dataset  
 
 **FinancialPhraseBank Dataset**  
 
@@ -75,7 +75,7 @@ Includes:
 
 ---
 
-## 🧹 Data Preprocessing  
+##  Data Preprocessing  
 
 - Lowercasing text  
 - Removing URLs & emails  
@@ -85,7 +85,7 @@ Includes:
 
 ---
 
-## 📊 Topic Modeling  
+##  Topic Modeling  
 
 Using **Latent Dirichlet Allocation (LDA)**  
 
@@ -100,7 +100,7 @@ Top Topics:
 
 ---
 
-## 📈 Results  
+##  Results  
 
 ### Overall Performance  
 
@@ -123,7 +123,7 @@ Top Topics:
 
 ---
 
-## ⚠️ Error Analysis  
+##  Error Analysis  
 
 Common issues:
 - Hidden sentiment in numerical comparisons  
@@ -133,7 +133,7 @@ Common issues:
 
 ---
 
-## ⏱️ Runtime  
+##  Runtime  
 
 | Method | With GPU | Without GPU |
 |--------|--------|------------|
@@ -144,7 +144,7 @@ Common issues:
 
 ---
 
-## 🛠️ Tech Stack  
+##  Tech Stack  
 
 - Python  
 - PyTorch  
@@ -156,7 +156,7 @@ Common issues:
 
 ---
 
-## 📦 Installation  
+##  Installation  
 
 ```bash
 git clone https://github.com/your-username/financial-sentiment-ai.git
